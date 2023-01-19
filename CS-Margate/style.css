@@ -1,0 +1,100 @@
+<style>
+	* {
+		padding: 0;
+		margin: 0;
+	}
+	html, body {
+		font-family: rubik;
+		font-size: 15px;
+		margin: 0;
+		padding: 0;
+		max-width: 1920px;
+		max-height: 1080px;
+	}
+	body {
+		background-image: url('assets/bg.jpg');
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: 100% 100%;
+		overflow: scroll;
+	}
+	#logo {
+		width: 125px;
+		height: 65px;
+		display: block;
+		position: absolute;
+		margin: 10px;
+	}
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+	li {
+		float: right;
+	}
+	li a {
+		display: block;
+		color: white;
+		text-align: center;
+		padding:20px 40px;
+		text-decoration: none;
+		font-size: 20px;
+		font-weight: 300;
+		text-shadow: 10px 10px 10px #333;
+	}
+	li a:hover {
+		font-size: 22px;
+		transition: 0.25s ease-in-out;
+	}
+	.home-content {
+		background-color: #d3c3b5;
+		margin-left: 80px;
+		margin-right: 80px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		padding: 20px;
+		border-radius: 5px;
+		font-family: rubik;
+	}
+	#banner {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		float: center;
+		padding: 20px;
+	}
+	h1 {
+		display: block;
+		text-align: center;
+		float:center;
+		padding:10px;
+		font-weight: 500;
+	}
+	#head {
+		color: white;
+		text-shadow: 10px 10px 10px #333;
+	}
+	.videos-content {
+		text-align: center;
+		padding: 10px;
+		margin: 10px;
+	}
+	.home-body {
+		font-size:20px;
+		font-weight: 400;
+		padding: 10px;
+	}
+	.images {
+		margin: 20px;
+		padding: 20px;
+		display: inline-block;
+	}
+	footer {
+		background-color: #604f41;
+		padding: 40px;
+		margin-top: 100px;
+		font-weight: 600;
+		text-align: center;
+	}
+</style>
